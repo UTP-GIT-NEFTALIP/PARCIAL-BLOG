@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.centralizado {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #222;
+}
+
+.acerca-de {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-imagenes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;          
+    justify-content: center; 
+    gap: 25px;              
+    flex-wrap: wrap;        
+}
+
+.menu-imagenes li {
+    margin: 0;
+}
+
+.menu-imagenes a {
+    display: block;
+    text-decoration: none;  
+    transition: transform 0.3s ease;
+}
+
+.menu-imagenes a:hover {
+    transform: translateY(-8px);
+}
+
+.texto-menu {
+    display: block;         
+    font-size: 1.3rem;      
+    font-weight: bold;      
+    margin-bottom: 10px;     
+    color: #2c3e50;         
+    text-transform: uppercase; 
+    text-decoration: none;  
+    transition: color 0.3s ease;
+}
+
+.menu-imagenes a:hover .texto-menu {
+    color: #e74c3c;         
+}
+
+.menu-img {
+    width: 120px;          
+    height: 120px;         
+    object-fit: cover;     
+    border-radius: 15px;   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: block;
+}
+
+.seccion-contenido {
+    min-height: 70vh;      
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.img-seccion {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-contenido p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.6;
+    margin: 10px 0 0 0;
+}
+
+#gaming { background-color: #ffffff; }
+#art { background-color: #f1f8ff; }
+#camping { background-color: #f6fff1; }
+#reading { background-color: #fffbf1; }
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #222;
+    color: #fff;
+    font-size: 0.9rem;
+}
